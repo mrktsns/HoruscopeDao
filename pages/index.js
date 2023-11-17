@@ -1,5 +1,5 @@
 import { Flex, Heading, Image, Link } from '@chakra-ui/react'
-import { logoteaser, discord, twitter, telegram, reddit } from '../svg'
+import { logoteaser, discord, twitter, telegram } from '../svg'
 
 const Home = () => {
 
@@ -89,7 +89,7 @@ LIMIT`}
 						{...socialStyle}
 					/>
 				</Link>
-				{* <Image
+				{/* <Image
 					src={reddit}
 					alt='Reddit'
 					{...socialStyle}
