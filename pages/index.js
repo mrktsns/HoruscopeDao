@@ -87,13 +87,7 @@ LIMIT`}
 						src={telegram}
 						alt='Telegram'
 						{...socialStyle}
-					/>
-				</Link>
-				{/* <Image
-					src={reddit}
-					alt='Reddit'
-					{...socialStyle}
-				/> */}
+					/> */}
 			</Flex>
 		</Flex>
 	)
