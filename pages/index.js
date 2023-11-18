@@ -31,7 +31,7 @@ const Home = () => {
 				<Image
 					maxH={{ base: '105px', sm: '140px', md: '215px' }}
 					src={logoteaser}
-					alt='HoruscopeDao: Providing Deeper Liquidity across Layer 2 networks'
+					alt='HoruscopeDao: Providing Deep Liquidity across Layer 2 networks'
 					zIndex='2'
 				/>
 				<Heading
@@ -76,21 +76,22 @@ LIMIT`}
 						alt='Discord'
 						{...socialStyle}
 					/>
-				<Link href='https://x.com/horuscopedao?s=21'>
-				<Image
-					src={twitter}
-					alt='Twitter'
-					{...socialStyle}
-				/>
 				</Link>
+				<Link href='https://telegram.org/'>
 					<Image
 						src={telegram}
 						alt='Telegram'
 						{...socialStyle}
-					/> */}
-			</Flex>
-		</Flex>
-	)
-}
+					/>
+				</Link>
+				{/* <Image
+					src={reddit}
+					alt='Reddit'
+					{...socialStyle}
+				/> */}
+				</Flex>
+				</Flex>
+				)
+				}
 
-export default Home
+															export default Home
